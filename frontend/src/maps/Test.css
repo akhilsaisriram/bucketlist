@@ -1,0 +1,44 @@
+.gradient-text {
+   
+    background: -webkit-linear-gradient(#111111, #060606);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .autocomplete {
+    position: relative;
+    width: 100%;
+  }
+  
+  .autocomplete-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #b93131;
+    border-radius: 4px;
+  }
+  
+  .autocomplete-suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 80%;
+    border: 1px solid #110e0e;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    background: rgb(20, 12, 12);
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 10;
+  }
+  
+
+  .autocomplete-suggestion {
+    padding: 8px;
+    cursor: pointer;
+    color: #f3ecec; /* Set text color to black */
+  }
+  
+  .autocomplete-suggestion:hover {
+    background-color: #5d5050;
+    color: #130a0a; /* Optional: Change text color to white on hover */  }
+  
